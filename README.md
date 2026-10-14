@@ -1,2 +1,63 @@
 # 17finds.github.io
 Best rep finds
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="17 Finds. Selección de moda, productos y enlaces de @17.finds.">
+<title>17 Finds — El archivo</title>
+<style>
+:root{color-scheme:dark;--bg:#101010;--panel:#181818;--line:#333;--muted:#aaa}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:#f4f3ef;font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}button,input,select{font:inherit}button,a,input,select{touch-action:manipulation}:focus-visible{outline:2px solid #d5ff70;outline-offset:4px}
+.wrap{width:min(1240px,92%);margin:auto}header{border-bottom:1px solid var(--line)}nav{min-height:80px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font-size:23px;font-weight:900;letter-spacing:-1px}.logo span{color:#d5ff70}.links{display:flex;gap:24px;font-size:13px}.hero{padding:80px 0 62px}.eyebrow{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--muted)}h1{font-size:clamp(68px,14vw,176px);line-height:.85;letter-spacing:-.08em;margin:28px 0;font-weight:900}h1 span{color:#d5ff70}.intro{max-width:530px;color:#bbb;line-height:1.7;font-size:16px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 22px;border:1px solid var(--line);font-size:13px;font-weight:bold}.primary{background:#f4f3ef;color:#111;border-color:#f4f3ef}.ticker{padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);color:#aaa;font-size:11px;letter-spacing:2px;line-height:2}
+section{padding:50px 0}.section-head{display:flex;justify-content:space-between;gap:20px;align-items:baseline}h2{font-size:32px;letter-spacing:-1px;margin:0 0 24px}.section-head p{font-size:12px;color:var(--muted)}.tools{display:flex;gap:12px;margin:0 0 22px}.tools input,.tools select{background:var(--panel);border:1px solid var(--line);color:#fff;padding:14px}.tools input{flex:1;min-width:0}.tools select{max-width:45%}.notice{font-size:13px;line-height:1.6;color:#bbb;border-left:2px solid #d5ff70;padding-left:14px;margin-bottom:24px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--panel);border:1px solid var(--line);overflow:hidden}.art{aspect-ratio:4/3;background:radial-gradient(ellipse at 50% 65%,#353535,#202020 60%);display:grid;place-items:center;position:relative}.art img{width:100%;height:100%;object-fit:contain}.art>span{font-size:clamp(20px,3vw,40px);letter-spacing:-2px;font-weight:900;color:#777}.tag{position:absolute;top:14px;left:14px;background:#101010;padding:7px 9px;font-size:10px;letter-spacing:1px}.info{padding:20px}.brand{color:#aaa;font-size:10px;letter-spacing:2px;text-transform:uppercase}.info h3{font-size:18px;margin:10px 0 8px}.price{color:#aaa;font-size:12px;margin:0 0 18px}.card-actions{display:flex;gap:8px}.card-actions a,.pending{padding:12px;border:1px solid #444;font-size:12px;display:inline-block}.card-actions a:first-child{background:#f4f3ef;color:#111}.pending{color:#888;width:100%;text-align:center}.empty{color:#aaa;padding:30px 0}.about{border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:40px}.about p{color:#aaa;line-height:1.8;margin-top:0}footer{border-top:1px solid var(--line);padding:24px 0;color:#888;font-size:12px}.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}.hero{padding:60px 0}.about{grid-template-columns:1fr;gap:0}.links{gap:14px}.section-head{display:block}.section-head p{margin-top:-12px;margin-bottom:22px}}@media(max-width:420px){.grid{gap:10px}.info{padding:12px}.info h3{font-size:15px}.art>span{font-size:22px}.links{font-size:11px}.tools{flex-direction:column}.tools select{max-width:100%}.tag{top:8px;left:8px;font-size:8px}.pending{font-size:10px;padding:10px 5px}}
+</style>
+</head>
+<body>
+<header><nav class="wrap" aria-label="Navegación principal"><a class="logo" href="#">17<span>FINDS</span></a><div class="links"><a href="#catalogo">CATÁLOGO</a><a href="https://www.tiktok.com/@17.finds" target="_blank" rel="noopener noreferrer">TIKTOK ↗</a></div></nav></header>
+<main>
+<div class="wrap hero"><p class="eyebrow">El archivo de @17.finds</p><h1>17 FINDS<span>.</span></h1><p class="intro">Siluetas oversize. Diseño experimental. Tus próximos finds, en un solo lugar.</p><div class="actions"><a class="btn primary" href="#catalogo">EXPLORAR EL ARCHIVO ↓</a><a class="btn" href="https://www.tiktok.com/@17.finds" target="_blank" rel="noopener noreferrer">VER MI TIKTOK ↗</a></div></div>
+<div class="ticker"><div class="wrap">BALENCIAGA / MAISON MARGIELA / SAINT LAURENT / STREETWEAR</div></div>
+<section class="wrap" id="catalogo"><div class="section-head"><h2>El archivo.</h2><p id="count" aria-live="polite"></p></div><div class="tools"><input type="search" id="search" aria-label="Buscar productos" placeholder="Buscar una prenda, marca o categoría…"><select id="brand" aria-label="Filtrar por marca"><option value="">Todas las marcas</option></select></div><p class="notice">Primera versión: las tarjetas son ejemplos de diseño. Añadiremos aquí las fotos, precios y enlaces de mis productos.</p><div class="grid" id="grid"></div><p class="empty" id="empty" hidden>No hay resultados. Prueba con otra búsqueda o marca.</p><noscript><p>Activa JavaScript para consultar el catálogo.</p></noscript></section>
+<section class="wrap about"><h2>Seleccionado por<br>17 Finds.</h2><div><p>Un espacio para reunir las prendas y accesorios que comparto en TikTok. Encuentra tu estilo y vuelve al vídeo para ver cómo queda cada pieza.</p><a class="btn" href="https://www.tiktok.com/@17.finds" target="_blank" rel="noopener noreferrer">SEGUIR A @17.FINDS ↗</a></div></section>
+</main>
+<footer><div class="wrap footer-inner"><span>© <span id="year"></span> 17 Finds</span><span>Catálogo independiente. Sin afiliación con las marcas mencionadas.</span></div></footer>
+<script>
+// Sustituye estos ejemplos por tus productos. Usa URLs completas https://.
+// Para un producto real: ejemplo:false, imagen:"URL", enlace:"URL".
+// El precio es texto, por ejemplo "35 €". QC es opcional.
+const productos = [
+ {nombre:"Zapatillas de silueta chunky",marca:"Balenciaga",categoria:"Zapatillas",precio:"",imagen:"",enlace:"",qc:"",ejemplo:true},
+ {nombre:"Zapatillas de inspiración vintage",marca:"Maison Margiela",categoria:"Zapatillas",precio:"",imagen:"",enlace:"",qc:"",ejemplo:true},
+ {nombre:"Botines de cuero",marca:"Saint Laurent",categoria:"Botas",precio:"",imagen:"",enlace:"",qc:"",ejemplo:true},
+ {nombre:"Sudadera de corte oversize",marca:"Balenciaga",categoria:"Sudaderas",precio:"",imagen:"",enlace:"",qc:"",ejemplo:true},
+ {nombre:"Camiseta de corte relajado",marca:"Maison Margiela",categoria:"Camisetas",precio:"",imagen:"",enlace:"",qc:"",ejemplo:true},
+ {nombre:"Chaqueta de silueta clásica",marca:"Saint Laurent",categoria:"Chaquetas",precio:"",imagen:"",enlace:"",qc:"",ejemplo:true}
+];
+const grid=document.getElementById("grid"),search=document.getElementById("search"),brand=document.getElementById("brand");
+const normalizar=t=>t.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+function urlSegura(value){try{const u=new URL(value);return u.protocol==="https:"?u.href:null}catch{return null}}
+function elemento(tag,clase,texto){const el=document.createElement(tag);if(clase)el.className=clase;if(texto!==undefined)el.textContent=texto;return el}
+function boton(texto,url){const a=elemento("a","",texto);a.href=url;a.target="_blank";a.rel="noopener noreferrer";return a}
+[...new Set(productos.map(p=>p.marca))].sort().forEach(m=>{const o=elemento("option","",m);o.value=m;brand.append(o)});
+function render(){
+ const q=normalizar(search.value.trim());
+ const lista=productos.filter(p=>(!brand.value||p.marca===brand.value)&&normalizar(p.nombre+" "+p.marca+" "+p.categoria).includes(q));
+ grid.replaceChildren();document.getElementById("count").textContent=lista.length+" piezas";document.getElementById("empty").hidden=lista.length!==0;
+ lista.forEach(p=>{
+  const card=elemento("article","card"),art=elemento("div","art"),placeholder=elemento("span","","17 / FINDS");art.append(placeholder);
+  const imagen=urlSegura(p.imagen);if(imagen){const img=elemento("img");img.src=imagen;img.alt=p.nombre;img.loading="lazy";placeholder.hidden=true;img.onerror=()=>{img.remove();placeholder.hidden=false};art.append(img)}
+  art.append(elemento("div","tag",p.ejemplo?"EJEMPLO":p.categoria));
+  const info=elemento("div","info");info.append(elemento("div","brand",p.marca),elemento("h3","",p.nombre),elemento("p","price",p.ejemplo?"Producto de ejemplo":p.precio||"Consultar precio en el enlace"));
+  const actions=elemento("div","card-actions"),enlace=urlSegura(p.enlace),qc=urlSegura(p.qc);
+  if(enlace&&!p.ejemplo){actions.append(boton("Ver producto ↗",enlace));if(qc)actions.append(boton("Fotos QC ↗",qc))}else actions.append(elemento("span","pending",p.ejemplo?"Ejemplo · sin enlace":"Enlace pendiente"));
+  info.append(actions);card.append(art,info);grid.append(card);
+ });
+ const ejemplos=productos.some(p=>p.ejemplo);document.querySelector(".notice").hidden=!ejemplos;
+}
+search.addEventListener("input",render);brand.addEventListener("change",render);document.getElementById("year").textContent=new Date().getFullYear();render();
+</script>
+</body>
+</html>
